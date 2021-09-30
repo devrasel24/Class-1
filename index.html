@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class 1</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <link rel="stylesheet" href="assest/css/style.css">
+</head>
+<body>
+    <button> <i class="fa fa-user-plus" aria-hidden="true"></i> Add Friend</button> <br><br>
+    <a href="#"> Click Me</a>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus, eum! Hic sed incidunt tenetur at ducimus excepturi mollitia ipsum reiciendis nostrum adipisci. Officiis, sapiente repellat.</p>
+
+<script src="./assest/js/jquery-3.6.0.min.js"></script>
+
+<script>
+  $('a').click(function() {
+      $('p').fadeToggle();
+  });
+
+  $('button').click(function(){
+      $('button').css('background','green') .html('<h3 style="color:#fff;"> <i class="fas fa-user"></i> Send Request</h3>');
+  });
+</script>
+
+</body>
+</html>
